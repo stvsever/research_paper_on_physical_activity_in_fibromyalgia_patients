@@ -1,0 +1,5 @@
+beep,n,completed,completion_rate,scheduled_hour_mean,scheduled_hour_sd,scheduled_hour_min,scheduled_hour_max,median_latency_min,mean_latency_min,median_duration_min,mean_duration_min
+1,473,373,78.858,10.268,0.191,10.0,11.333,1.0,3.848,1.0,1.268
+2,473,373,78.858,12.761,0.194,12.5,13.917,1.0,3.595,1.0,1.279
+3,473,355,75.053,15.26,0.19,15.0,16.367,1.0,3.899,1.0,1.324
+4,475,373,78.526,17.77,0.191,17.5,18.933,1.0,3.905,1.0,1.26

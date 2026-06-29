@@ -1,0 +1,5 @@
+"coupling","test","statistic","p_asymptotic","p_permutation","n"
+"Pain -> Activity","Kruskal-Wallis by POAM-P type",6.46,0.0396,0.0373,30
+"Activity -> Pain","Kruskal-Wallis by POAM-P type",4.149,0.1256,0.1277,27
+"Activity -> Fatigue","Kruskal-Wallis by POAM-P type",4.215,0.1215,0.1192,27
+"Stress -> Activity","Kruskal-Wallis by POAM-P type",1.646,0.4391,0.4555,30

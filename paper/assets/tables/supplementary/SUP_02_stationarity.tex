@@ -1,0 +1,32 @@
+\begin{table}[H]
+\raggedright
+\caption{ENMO distribution and stationarity checks.}
+\label{tab:sup-stationarity}
+\footnotesize
+\begingroup
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\noindent\textit{Panel A.} Skewness and kurtosis of candidate activity transformations.\par\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcc@{}}
+\toprule
+Measure & Skewness & Kurtosis \\
+\midrule
+ENMO (raw) & 1.321 & 5.403 \\
+ENMO (sqrt) & 0.444 & 2.974 \\
+ENMO (log) & -0.504 & 3.432 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{6pt}\noindent\textit{Panel B.} Share of individual series flagged by linear trend and KPSS diagnostics.\par\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcc@{}}
+\toprule
+Variable & Prop. linear trend & Prop. KPSS non-stationary \\
+\midrule
+Activity & 0.088 & 0.118 \\
+Fatigue & 0.235 & 0.206 \\
+Pain & 0.353 & 0.176 \\
+Stress & 0.265 & 0.176 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{3pt}\noindent\parbox{\textwidth}{\footnotesize\textit{Note.} ENMO was analysed on the log scale because the transformed distribution was closest to symmetry. KPSS = Kwiatkowski-Phillips-Schmidt-Shin test.}
+\endgroup
+\end{table}

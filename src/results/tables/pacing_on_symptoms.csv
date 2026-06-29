@@ -1,0 +1,5 @@
+"model","term","estimate","SE","p"
+"pacing ~ symptoms (within)","(Intercept)",2.948,0.308,0
+"pacing ~ symptoms (within)","cPIJN",0.129,0.039,0.001
+"pacing ~ symptoms (within)","cMOE",0.122,0.035,4e-04
+"pacing ~ symptoms (within)","cSTRESS",-0.013,0.033,0.7036

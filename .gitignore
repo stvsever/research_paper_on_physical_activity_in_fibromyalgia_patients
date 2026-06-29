@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.secret
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project tools
+.tools/
+.cargo-tools/
+tmp/
+
+# R / RStudio local state
+.Rhistory
+.RData
+.Rproj.user/
+
+# Sensitive clinical data and local study archive - do not commit.
+src/data/raw/
+src/data/processed/
+src/other/
+
+# Study materials may carry identifiable questionnaire/project content; keep the codebook only.
+src/utils/study_materials/*.pdf
+src/utils/study_materials/*.docx
+
+# Model objects and per-person model input data may embed participant-level records.
+src/results/models/**/*.rds
+src/results/models/gimme_out/data/
+
+# Do not publish row-level derived exports that can expose prompt-level participant traces.
+src/results/tables/02_timing_long.csv
+src/results/tables/04_imputation_example.csv
+src/results/networks/05_mlvar_residuals_long.csv

@@ -1,0 +1,8 @@
+"variable","label","n_obs","n_persons","icc_person","var_between_person","var_between_day","var_within_day"
+"PIJN","Pain",1497,34,0.585,0.58,0.14,0.28
+"MOE","Fatigue",1495,34,0.58,0.576,0.094,0.33
+"STRESS","Stress",1492,34,0.593,0.589,0.105,0.306
+"ENMO_log","Activity (log ENMO)",1757,34,0.29,0.288,0.037,0.675
+"EIGENEFF","Self-efficacy",1484,34,0.258,0.257,0.062,0.681
+"INTENTIE","Intention",1483,34,0.376,0.373,0.067,0.56
+"UITKOMSTVERW","Rest-expectancy",1483,34,0.428,0.423,0.075,0.503

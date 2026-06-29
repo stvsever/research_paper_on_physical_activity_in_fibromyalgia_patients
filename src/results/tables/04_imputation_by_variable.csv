@@ -1,0 +1,33 @@
+Method,Measure,rmse,r
+Mean,Pain,1.107,-0.246
+Mean,Fatigue,0.977,-0.268
+Mean,Stress,1.004,-0.328
+Mean,Activity,0.994,-0.295
+Median,Pain,1.156,-0.073
+Median,Fatigue,1.049,-0.106
+Median,Stress,1.063,-0.047
+Median,Activity,1.004,-0.097
+LOCF,Pain,1.301,0.195
+LOCF,Fatigue,1.258,0.181
+LOCF,Stress,1.251,0.202
+LOCF,Activity,1.444,-0.085
+Linear interpolation,Pain,1.125,0.295
+Linear interpolation,Fatigue,1.063,0.236
+Linear interpolation,Stress,1.042,0.294
+Linear interpolation,Activity,1.223,-0.066
+Kalman (structural),Pain,1.069,0.249
+Kalman (structural),Fatigue,0.925,0.265
+Kalman (structural),Stress,0.954,0.249
+Kalman (structural),Activity,0.997,-0.007
+KNN,Pain,1.028,0.363
+KNN,Fatigue,0.866,0.454
+KNN,Stress,1.062,0.084
+KNN,Activity,1.123,0.004
+MICE (chained eq.),Pain,0.997,0.405
+MICE (chained eq.),Fatigue,0.801,0.55
+MICE (chained eq.),Stress,0.977,0.208
+MICE (chained eq.),Activity,1.015,0.029
+missForest (random forest),Pain,1.018,0.393
+missForest (random forest),Fatigue,0.916,0.399
+missForest (random forest),Stress,0.958,0.331
+missForest (random forest),Activity,1.118,0.036

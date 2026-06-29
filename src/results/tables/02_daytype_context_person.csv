@@ -1,0 +1,137 @@
+pid,metric,label,day_type,pct
+P01,at_home,At home,Weekday,77.77777777777779
+P01,at_home,At home,Weekend,85.71428571428571
+P02,at_home,At home,Weekday,58.620689655172406
+P02,at_home,At home,Weekend,35.714285714285715
+P03,at_home,At home,Weekday,100.0
+P03,at_home,At home,Weekend,93.33333333333333
+P04,at_home,At home,Weekday,88.88888888888889
+P04,at_home,At home,Weekend,85.71428571428571
+P05,at_home,At home,Weekday,80.0
+P05,at_home,At home,Weekend,93.75
+P06,at_home,At home,Weekday,91.8918918918919
+P06,at_home,At home,Weekend,100.0
+P07,at_home,At home,Weekday,75.0
+P07,at_home,At home,Weekend,87.5
+P08,at_home,At home,Weekday,80.95238095238095
+P08,at_home,At home,Weekend,83.33333333333334
+P09,at_home,At home,Weekday,81.25
+P09,at_home,At home,Weekend,100.0
+P10,at_home,At home,Weekday,82.85714285714286
+P10,at_home,At home,Weekend,91.66666666666666
+P11,at_home,At home,Weekday,93.10344827586206
+P11,at_home,At home,Weekend,75.0
+P12,at_home,At home,Weekday,67.64705882352942
+P12,at_home,At home,Weekend,57.14285714285714
+P13,at_home,At home,Weekday,88.57142857142857
+P13,at_home,At home,Weekend,90.9090909090909
+P14,at_home,At home,Weekday,90.9090909090909
+P14,at_home,At home,Weekend,100.0
+P15,at_home,At home,Weekday,69.44444444444444
+P15,at_home,At home,Weekend,92.85714285714286
+P16,at_home,At home,Weekday,80.0
+P16,at_home,At home,Weekend,100.0
+P17,at_home,At home,Weekday,42.857142857142854
+P17,at_home,At home,Weekend,36.36363636363637
+P18,at_home,At home,Weekday,57.14285714285714
+P18,at_home,At home,Weekend,42.857142857142854
+P19,at_home,At home,Weekday,73.68421052631578
+P19,at_home,At home,Weekend,100.0
+P20,at_home,At home,Weekday,96.15384615384616
+P20,at_home,At home,Weekend,92.3076923076923
+P21,at_home,At home,Weekday,62.857142857142854
+P21,at_home,At home,Weekend,38.46153846153847
+P22,at_home,At home,Weekday,65.51724137931035
+P22,at_home,At home,Weekend,100.0
+P23,at_home,At home,Weekday,76.92307692307693
+P23,at_home,At home,Weekend,81.25
+P24,at_home,At home,Weekday,82.85714285714286
+P24,at_home,At home,Weekend,28.57142857142857
+P25,at_home,At home,Weekday,72.22222222222221
+P25,at_home,At home,Weekend,75.0
+P26,at_home,At home,Weekday,51.42857142857142
+P26,at_home,At home,Weekend,66.66666666666666
+P27,at_home,At home,Weekday,72.5
+P27,at_home,At home,Weekend,70.0
+P28,at_home,At home,Weekday,77.77777777777779
+P28,at_home,At home,Weekend,80.0
+P29,at_home,At home,Weekday,81.81818181818183
+P29,at_home,At home,Weekend,100.0
+P30,at_home,At home,Weekday,100.0
+P30,at_home,At home,Weekend,100.0
+P31,at_home,At home,Weekday,36.36363636363637
+P31,at_home,At home,Weekend,20.0
+P32,at_home,At home,Weekday,75.0
+P32,at_home,At home,Weekend,92.85714285714286
+P33,at_home,At home,Weekday,76.92307692307693
+P33,at_home,At home,Weekend,75.0
+P34,at_home,At home,Weekday,96.7741935483871
+P34,at_home,At home,Weekend,90.9090909090909
+P01,alone,Alone,Weekday,44.44444444444444
+P01,alone,Alone,Weekend,85.71428571428571
+P02,alone,Alone,Weekday,100.0
+P02,alone,Alone,Weekend,92.85714285714286
+P03,alone,Alone,Weekday,16.666666666666664
+P03,alone,Alone,Weekend,20.0
+P04,alone,Alone,Weekday,63.888888888888886
+P04,alone,Alone,Weekend,78.57142857142857
+P05,alone,Alone,Weekday,15.384615384615385
+P05,alone,Alone,Weekend,100.0
+P06,alone,Alone,Weekday,2.7027027027027026
+P06,alone,Alone,Weekend,0.0
+P07,alone,Alone,Weekday,53.57142857142857
+P07,alone,Alone,Weekend,100.0
+P08,alone,Alone,Weekday,42.857142857142854
+P08,alone,Alone,Weekend,66.66666666666666
+P09,alone,Alone,Weekday,78.125
+P09,alone,Alone,Weekend,100.0
+P10,alone,Alone,Weekday,37.142857142857146
+P10,alone,Alone,Weekend,83.33333333333334
+P11,alone,Alone,Weekday,86.20689655172413
+P11,alone,Alone,Weekend,100.0
+P12,alone,Alone,Weekday,35.294117647058826
+P12,alone,Alone,Weekend,78.57142857142857
+P13,alone,Alone,Weekday,45.714285714285715
+P13,alone,Alone,Weekend,81.81818181818183
+P14,alone,Alone,Weekday,34.375
+P14,alone,Alone,Weekend,100.0
+P15,alone,Alone,Weekday,41.66666666666667
+P15,alone,Alone,Weekend,85.71428571428571
+P16,alone,Alone,Weekday,25.0
+P16,alone,Alone,Weekend,50.0
+P17,alone,Alone,Weekday,80.0
+P17,alone,Alone,Weekend,100.0
+P18,alone,Alone,Weekday,46.42857142857143
+P18,alone,Alone,Weekend,78.57142857142857
+P19,alone,Alone,Weekday,26.31578947368421
+P19,alone,Alone,Weekend,70.0
+P20,alone,Alone,Weekday,61.53846153846154
+P20,alone,Alone,Weekend,76.92307692307693
+P21,alone,Alone,Weekday,54.285714285714285
+P21,alone,Alone,Weekend,92.3076923076923
+P22,alone,Alone,Weekday,24.137931034482758
+P22,alone,Alone,Weekend,0.0
+P23,alone,Alone,Weekday,33.33333333333333
+P23,alone,Alone,Weekend,25.0
+P24,alone,Alone,Weekday,77.14285714285715
+P24,alone,Alone,Weekend,85.71428571428571
+P25,alone,Alone,Weekday,13.88888888888889
+P25,alone,Alone,Weekend,75.0
+P26,alone,Alone,Weekday,62.857142857142854
+P26,alone,Alone,Weekend,41.66666666666667
+P27,alone,Alone,Weekday,28.205128205128204
+P27,alone,Alone,Weekend,40.0
+P28,alone,Alone,Weekday,86.11111111111111
+P28,alone,Alone,Weekend,66.66666666666666
+P29,alone,Alone,Weekday,93.93939393939394
+P29,alone,Alone,Weekend,90.9090909090909
+P30,alone,Alone,Weekday,20.0
+P30,alone,Alone,Weekend,41.66666666666667
+P31,alone,Alone,Weekday,70.0
+P31,alone,Alone,Weekend,80.0
+P32,alone,Alone,Weekday,75.0
+P32,alone,Alone,Weekend,92.85714285714286
+P33,alone,Alone,Weekday,33.33333333333333
+P33,alone,Alone,Weekend,87.5
+P34,alone,Alone,Weekday,87.09677419354838
+P34,alone,Alone,Weekend,72.72727272727273

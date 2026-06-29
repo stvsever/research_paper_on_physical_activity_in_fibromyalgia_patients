@@ -1,0 +1,11 @@
+,value
+n_participants,34.0
+n_triggers_total,1894.0
+n_completed_total,1474.0
+completed_per_person_mean,43.4
+completed_per_person_median,44.5
+completed_per_person_min,23.0
+completed_per_person_max,55.0
+compliance_rate_mean,0.779
+enmo_available_pct,92.8
+could_not_move_pct,13.2

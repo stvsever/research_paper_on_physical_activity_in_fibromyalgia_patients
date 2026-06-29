@@ -1,0 +1,17 @@
+"edge","from","to","mean","sd","min","max","prop_same_sign","prop_p_lt_05"
+"PIJN__to__PIJN","PIJN","PIJN",0.364,0.01,0.344,0.381,1,1
+"STRESS__to__STRESS","STRESS","STRESS",0.333,0.009,0.316,0.352,1,1
+"MOE__to__MOE","MOE","MOE",0.284,0.008,0.271,0.304,1,1
+"ENMO_log__to__ENMO_log","ENMO_log","ENMO_log",0.159,0.01,0.137,0.199,1,1
+"ENMO_log__to__MOE","ENMO_log","MOE",-0.132,0.01,-0.149,-0.097,1,1
+"STRESS__to__PIJN","STRESS","PIJN",0.081,0.007,0.065,0.097,1,0.882
+"MOE__to__STRESS","MOE","STRESS",-0.073,0.007,-0.086,-0.046,1,0.118
+"PIJN__to__MOE","PIJN","MOE",0.066,0.01,0.039,0.086,1,0
+"STRESS__to__ENMO_log","STRESS","ENMO_log",0.065,0.009,0.039,0.097,1,0.029
+"MOE__to__ENMO_log","MOE","ENMO_log",-0.058,0.01,-0.076,-0.023,1,0
+"ENMO_log__to__PIJN","ENMO_log","PIJN",-0.057,0.01,-0.075,-0.032,1,0
+"STRESS__to__MOE","STRESS","MOE",0.053,0.006,0.041,0.07,1,0.059
+"PIJN__to__STRESS","PIJN","STRESS",0.034,0.009,0.019,0.054,1,0
+"ENMO_log__to__STRESS","ENMO_log","STRESS",0.029,0.004,0.022,0.038,1,0
+"MOE__to__PIJN","MOE","PIJN",0.013,0.008,-0.009,0.026,0.912,0
+"PIJN__to__ENMO_log","PIJN","ENMO_log",-0.004,0.007,-0.022,0.014,0.706,0

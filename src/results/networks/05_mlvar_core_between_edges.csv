@@ -1,0 +1,7 @@
+"node1","node2","pcor","P"
+"MOE","PIJN",0.716,0
+"STRESS","PIJN",0.175,0.304
+"STRESS","MOE",0.146,0.338
+"ENMO_log","PIJN",0.072,0.551
+"ENMO_log","MOE",-0.118,0.262
+"ENMO_log","STRESS",-0.217,0.133

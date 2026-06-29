@@ -1,0 +1,17 @@
+"edge","from","to","weight_ref","weight_detrended","abs_diff"
+"ENMO_log__to__ENMO_log","ENMO_log","ENMO_log",0.159,0.145,0.014
+"ENMO_log__to__MOE","ENMO_log","MOE",-0.131,-0.178,0.047
+"ENMO_log__to__PIJN","ENMO_log","PIJN",-0.057,-0.088,0.031
+"ENMO_log__to__STRESS","ENMO_log","STRESS",0.029,0.035,0.006
+"MOE__to__ENMO_log","MOE","ENMO_log",-0.059,-0.044,0.015
+"MOE__to__MOE","MOE","MOE",0.285,0.2,0.085
+"MOE__to__PIJN","MOE","PIJN",0.013,0.052,0.039
+"MOE__to__STRESS","MOE","STRESS",-0.073,-0.083,0.01
+"PIJN__to__ENMO_log","PIJN","ENMO_log",-0.004,-0.012,0.008
+"PIJN__to__MOE","PIJN","MOE",0.066,0.094,0.028
+"PIJN__to__PIJN","PIJN","PIJN",0.364,0.262,0.102
+"PIJN__to__STRESS","PIJN","STRESS",0.034,0.049,0.015
+"STRESS__to__ENMO_log","STRESS","ENMO_log",0.065,0.043,0.022
+"STRESS__to__MOE","STRESS","MOE",0.052,0.065,0.013
+"STRESS__to__PIJN","STRESS","PIJN",0.081,0.083,0.002
+"STRESS__to__STRESS","STRESS","STRESS",0.333,0.279,0.054

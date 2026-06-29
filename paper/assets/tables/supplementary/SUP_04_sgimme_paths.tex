@@ -1,0 +1,44 @@
+\begin{table}[H]
+\raggedright
+\caption{S-GIMME path prevalence.}
+\label{tab:sup-sgimme}
+\scriptsize
+\begingroup
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccc@{}}
+\toprule
+Path & Path class & Group-level n & Individual n & Subgroup-1 n \\
+\midrule
+Activity $\leftarrow$ Activity(t-1) & Autoregressive & 30 & 0 & 0 \\
+Fatigue $\leftarrow$ Fatigue(t-1) & Autoregressive & 30 & 0 & 0 \\
+Pain $\leftarrow$ Pain(t-1) & Autoregressive & 30 & 0 & 0 \\
+Stress $\leftarrow$ Stress(t-1) & Autoregressive & 30 & 0 & 0 \\
+Fatigue $\leftarrow$ Pain & Cross-variable & 0 & 10 & 7 \\
+Pain $\leftarrow$ Fatigue & Cross-variable & 0 & 5 & 0 \\
+Pain $\leftarrow$ Stress & Cross-variable & 0 & 5 & 0 \\
+Activity $\leftarrow$ Pain & Cross-variable & 0 & 4 & 0 \\
+Fatigue $\leftarrow$ Stress(t-1) & Cross-variable & 0 & 4 & 0 \\
+Stress $\leftarrow$ Pain & Cross-variable & 0 & 4 & 0 \\
+Fatigue $\leftarrow$ Activity(t-1) & Cross-variable & 0 & 3 & 0 \\
+Fatigue $\leftarrow$ Stress & Cross-variable & 0 & 3 & 0 \\
+Pain $\leftarrow$ Fatigue(t-1) & Cross-variable & 0 & 3 & 0 \\
+Pain $\leftarrow$ Stress(t-1) & Cross-variable & 0 & 3 & 0 \\
+Stress $\leftarrow$ Fatigue & Cross-variable & 0 & 3 & 0 \\
+Stress $\leftarrow$ Fatigue(t-1) & Cross-variable & 0 & 3 & 0 \\
+Activity $\leftarrow$ Fatigue(t-1) & Cross-variable & 0 & 2 & 0 \\
+Activity $\leftarrow$ Pain(t-1) & Cross-variable & 0 & 2 & 0 \\
+Activity $\leftarrow$ Stress & Cross-variable & 0 & 2 & 0 \\
+Fatigue $\leftarrow$ Pain(t-1) & Cross-variable & 0 & 2 & 0 \\
+Stress $\leftarrow$ Activity & Cross-variable & 0 & 2 & 0 \\
+Stress $\leftarrow$ Activity(t-1) & Cross-variable & 0 & 2 & 0 \\
+Activity $\leftarrow$ Fatigue & Cross-variable & 0 & 1 & 0 \\
+Activity $\leftarrow$ Stress(t-1) & Cross-variable & 0 & 1 & 0 \\
+Pain $\leftarrow$ Activity & Cross-variable & 0 & 1 & 0 \\
+Pain $\leftarrow$ Activity(t-1) & Cross-variable & 0 & 1 & 0 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{3pt}\noindent\parbox{\textwidth}{\scriptsize\textit{Note.} Counts are the number of participants for whom S-GIMME retained each path at the group, individual, or first subgroup level. The four autoregressive paths reached the group threshold; no cross-variable path reached that threshold. Path labels place the outcome on the left and the predictor on the right, with $(t-1)$ marking lagged terms. S-GIMME found 16 subgroups, including two small groups and 14 singletons.}
+\endgroup
+\end{table}

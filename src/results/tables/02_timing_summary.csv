@@ -1,0 +1,12 @@
+metric,n,mean,sd,median,q1,q3,min,max
+Analytic participants,34,,,,,,,
+Expected trigger rows,1904,,,,,,,
+Observed trigger rows,1894,,,,,,,
+Completed trigger rows,1474,,,,,,,
+Rows outside scheduled beep window,28,1.478,,,,,,
+Rows outside 10:00-18:00 scheduled range,7,0.37,,,,,,
+Scheduled clock time (hours after midnight),1894,14.019,2.804,15.0,12.5,17.5,10.0,18.933
+Adjacent-prompt interval (minutes),1418,150.049,12.908,150.0,141.0,160.0,120.0,180.0
+"Response latency, scheduled to started (minutes)",1517,3.811,5.269,1.0,0.0,7.0,0.0,19.0
+"Questionnaire duration, started to completed (minutes)",1474,1.282,0.845,1.0,1.0,2.0,0.0,8.0
+"Completion latency, scheduled to completed (minutes)",1474,4.89,5.077,3.0,1.0,8.0,0.0,20.0

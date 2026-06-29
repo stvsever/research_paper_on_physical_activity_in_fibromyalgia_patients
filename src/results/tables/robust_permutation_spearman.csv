@@ -1,0 +1,5 @@
+"coupling","test","rho","p_permutation","n"
+"Pain -> Activity","Spearman vs POAM-P Avoidance",-0.394,0.0329,30
+"Activity -> Pain","Spearman vs POAM-P Avoidance",-0.254,0.2059,27
+"Activity -> Fatigue","Spearman vs POAM-P Avoidance",-0.273,0.1656,27
+"Stress -> Activity","Spearman vs POAM-P Avoidance",-0.011,0.9538,30

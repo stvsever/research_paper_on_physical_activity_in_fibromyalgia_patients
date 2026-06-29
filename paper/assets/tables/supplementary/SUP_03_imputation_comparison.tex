@@ -1,0 +1,37 @@
+\begin{table}[H]
+\raggedright
+\caption{Missing data and imputation benchmark.}
+\label{tab:sup-imputation}
+\footnotesize
+\begingroup
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\noindent\textit{Panel A.} Missingness by momentary measure (of 1,894 scheduled prompts).\par\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc@{}}
+\toprule
+Measure & Observed & Missing & \% missing \\
+\midrule
+Pain & 1497 & 397 & 21.0 \\
+Fatigue & 1495 & 399 & 21.1 \\
+Stress & 1492 & 402 & 21.2 \\
+Activity & 1757 & 137 & 7.2 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{6pt}\noindent\textit{Panel B.} Univariate and multivariate imputation compared by held-out reconstruction and moment stability.\par\vspace{2pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccccc@{}}
+\toprule
+Method & Type & Std. RMSE & Std. MAE & $r$ (held-out) & Mean shift (SD) & SD change (\%) \\
+\midrule
+Mean & Univariate & 1.021 & 0.801 & -0.286 & 0.014 & 3.6 \\
+Median & Univariate & 1.067 & 0.771 & -0.064 & 0.026 & 2.4 \\
+LOCF & Univariate & 1.321 & 0.961 & 0.117 & 0.011 & 1.6 \\
+Linear interpolation & Univariate & 1.12 & 0.832 & 0.189 & 0.01 & 0.6 \\
+Kalman (structural) & Univariate & 0.988 & 0.755 & 0.204 & 0.011 & 2.6 \\
+KNN & Multivariate & 1.029 & 0.769 & 0.228 & 0.012 & 1.9 \\
+MICE (chained eq.) & Multivariate & 0.954 & 0.73 & 0.321 & 0.012 & 3.2 \\
+missForest (random forest) & Multivariate & 1.011 & 0.75 & 0.287 & 0.014 & 2.0 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{3pt}\noindent\parbox{\textwidth}{\footnotesize\textit{Note.} Symptom missingness reflects non-response; activity missingness reflects accelerometer non-wear. The primary analyses used available-case (pairwise) handling within each VAR equation, consistent with the missing-at-random evidence in the stationarity and missingness checks. As a sensitivity benchmark, 20\% of observed values were held out at random and reconstructed with five univariate imputeTS-style univariate time-series methods (Moritz \& Bartz-Beielstein, 2017) and three multivariate methods that borrow strength across the concurrent measures (k-nearest-neighbours, MICE with Bayesian ridge, and a random-forest chained imputer). Standardized RMSE, MAE, and the within-person held-out correlation are averaged over the four core measures; the last two columns give the change in each measure's pooled mean and SD after all gaps are imputed. Multivariate methods reconstructed momentary fluctuations best (MICE: RMSE = 0.95, $r$ = 0.32), the univariate mean and median did not track within-person fluctuations, and every method left the descriptive moments essentially unchanged, which supports the available-case decision. Figure S5 visualizes the full benchmark.}
+\endgroup
+\end{table}

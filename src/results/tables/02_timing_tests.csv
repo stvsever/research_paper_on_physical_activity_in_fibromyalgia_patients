@@ -1,0 +1,8 @@
+test,model,statistic,p,estimate,se,kruskal_p
+completion_by_prompt_global,"Binomial GEE, completed ~ C(beep), participant clustered",,0.2521907590886962,,,
+completion_by_weekend,"Binomial GEE, completed ~ is_weekend, participant clustered",,0.019263457745313545,-0.33797018068506307,0.1444074485261553,
+completion_weekend_paired,Paired Wilcoxon signed-rank on participant completion percentages,162.0,0.0561,,,
+response_latency_by_prompt,Gaussian GEE global prompt effect plus Kruskal-Wallis check,0.227,0.837884572325401,,,0.9731
+questionnaire_duration_by_prompt,Gaussian GEE global prompt effect plus Kruskal-Wallis check,2.702,0.4461738081867772,,,0.4398
+adjacent_prompt_interval_by_pair,Gaussian GEE global interval-pair effect plus Kruskal-Wallis check,1.663,0.47622655891767984,,,0.4353
+person_completion_vs_latency,Spearman correlation across participants,-0.522,0.0015,,,

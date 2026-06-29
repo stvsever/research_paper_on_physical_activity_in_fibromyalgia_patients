@@ -1,0 +1,5 @@
+"","PIJNlag","MOElag","STRESSlag","ENMO_loglag","PIJN","MOE","STRESS","ENMO_log"
+"PIJN",0.1401,0,0,0,0,0,0,0
+"MOE",0,0.1255,0,0,0,0,0.1262,0
+"STRESS",0,0,0.1162,0,0.1156,0,0,0
+"ENMO_log",0,0,0,0.154,0,0,0,0

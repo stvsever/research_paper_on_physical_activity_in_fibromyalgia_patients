@@ -1,0 +1,4 @@
+variable,label,n,n_persons,accompanied_mean,alone_mean,b_alone,se,p,test
+PIJN,Pain,1497,34,5.471,5.773,0.14,0.126,0.2659,"Gaussian GEE, exchangeable participant correlation"
+MOE,Fatigue,1495,34,5.848,5.759,0.085,0.101,0.3985,"Gaussian GEE, exchangeable participant correlation"
+STRESS,Stress,1492,34,2.825,3.428,0.18,0.114,0.114,"Gaussian GEE, exchangeable participant correlation"

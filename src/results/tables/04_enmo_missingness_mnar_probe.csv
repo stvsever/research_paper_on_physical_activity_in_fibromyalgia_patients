@@ -1,0 +1,5 @@
+"term","estimate_logit","SE","p"
+"(Intercept)",-4.006,0.395,0
+"scale(PIJN)",0.335,0.226,0.1373
+"scale(MOE)",-0.245,0.213,0.2495
+"scale(STRESS)",0.203,0.179,0.2581

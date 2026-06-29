@@ -1,0 +1,17 @@
+"from","to","pct_selected"
+"STRESS","STRESS",30
+"MOE","MOE",23.3
+"PIJN","PIJN",23.3
+"ENMO_log","ENMO_log",13.3
+"ENMO_log","MOE",13.3
+"PIJN","MOE",13.3
+"STRESS","MOE",10
+"MOE","PIJN",10
+"STRESS","ENMO_log",6.7
+"ENMO_log","PIJN",6.7
+"STRESS","PIJN",6.7
+"PIJN","STRESS",6.7
+"PIJN","ENMO_log",3.3
+"MOE","STRESS",3.3
+"MOE","ENMO_log",0
+"ENMO_log","STRESS",0

@@ -1,0 +1,3 @@
+metric,label,weekday_mean_pct,weekend_mean_pct,median_diff_pct,wilcoxon_statistic,p_wilcoxon,n_pairs,test
+at_home,At home,76.64,78.32,2.36,228.0,0.3482,34,paired Wilcoxon signed-rank on participant-level percentages
+alone,Alone,49.9,71.79,20.83,72.0,0.0,34,paired Wilcoxon signed-rank on participant-level percentages

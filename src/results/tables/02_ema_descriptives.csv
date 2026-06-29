@@ -1,0 +1,9 @@
+variable,label,n_obs,mean,sd,median,min,max,sd_between_person,sd_within_person,pct_missing
+PIJN,Pain (0-10),1497,5.637,2.061,6.0,0.0,10.0,1.627,1.342,21.0
+MOE,Fatigue (0-10),1495,5.799,2.37,6.0,0.0,10.0,1.836,1.532,21.1
+STRESS,Stress (0-10),1492,3.155,2.289,3.0,0.0,10.0,1.799,1.461,21.2
+ENMO,Activity ENMO (g),1757,0.033,0.022,0.029,0.001,0.147,0.012,0.019,7.2
+ENMO_log,Activity log-ENMO,1757,-3.63,0.711,-3.557,-7.155,-1.918,0.392,0.594,7.2
+EIGENEFF,Self-efficacy (1-5),1484,3.466,0.97,4.0,1.0,5.0,0.514,0.83,21.6
+INTENTIE,Intention (1-5),1483,3.616,1.007,4.0,1.0,5.0,0.641,0.798,21.7
+UITKOMSTVERW,Rest-expectancy (1-5),1483,3.028,1.003,3.0,1.0,5.0,0.682,0.764,21.7
