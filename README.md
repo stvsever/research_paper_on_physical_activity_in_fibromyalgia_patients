@@ -9,7 +9,7 @@ Stijn Van Severen<sup>1,*</sup> &middot;
 Delfien Van Dyck<sup>2</sup> &middot;
 Geert Crombez<sup>1</sup>
 
-<sup>1</sup> Ghent Health Psychology Lab, Ghent University<br>
+<sup>1</sup> Department of Experimental-Clinical and Health Psychology, Ghent University, Ghent, Belgium<br>
 <sup>2</sup> Department of Movement and Sport Sciences, Ghent University, Ghent, Belgium<br>
 <sup>*</sup> Corresponding author: <a href="mailto:stijn.vanseveren@ugent.be">stijn.vanseveren@ugent.be</a>
 
