@@ -1,11 +1,11 @@
 services:
-  paper-template:
+  paper-analysis:
     build:
-      context: ..
-      dockerfile: docker/Dockerfile
-    env_file:
-      - ../.env
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      VENV: /opt/fibromyalgia-ema-venv
     volumes:
       - ../:/workspace
     working_dir: /workspace
-    command: ["paper-template", "run-all"]
+    command: ["make", "check"]

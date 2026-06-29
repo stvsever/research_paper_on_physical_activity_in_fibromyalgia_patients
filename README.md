@@ -2,7 +2,7 @@
 
 # "Walk on": A Health Psychology Perspective on Physical Activity in Fibromyalgia
 
-### Reproducible EMA network analysis in fibromyalgia
+### Determinants of physical activity in fibromyalgia: an EMA network analysis
 
 **Ghent Health Psychology Lab, Ghent University**
 
@@ -166,19 +166,15 @@ heterogeneous momentary dynamics.
 ### Local Pipeline
 
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install pandas numpy scipy matplotlib seaborn pyreadstat openpyxl \
-  networkx scikit-learn statsmodels python-docx
-
-python src/utils/pipeline/full/run_all.py
+make setup
+make run-all
 ```
 
 Resume from a stage, or run one stage:
 
 ```bash
-python src/utils/pipeline/full/run_all.py --from 05
-python src/utils/pipeline/full/run_all.py --only 12
+make run-from STAGE=05
+make run-stage STAGE=12
 ```
 
 ### Manuscript
@@ -192,18 +188,20 @@ References use natbib plus the bundled `apalike` BibTeX style, so biber is not r
 
 ### Docker
 
-A Docker scaffold is present in [`docker/`](docker). It is useful as a starting point for a
-containerized run, but the current project-authoritative route is the local pipeline above
-because the statistical workflow requires the R modelling stack and Tectonic.
+Docker support is in [`docker/`](docker). The image builds from the `docker/` directory
+only, so private raw data are not part of the Docker build context. At runtime, Compose
+mounts the repository into `/workspace` and runs the same Makefile checks as the local
+workflow.
 
 ```bash
 docker compose -f docker/docker-compose.yml build
-docker compose -f docker/docker-compose.yml run --rm paper-template
+docker compose -f docker/docker-compose.yml run --rm paper-analysis
 ```
 
-Before relying on Docker for full reproduction, add the same R packages used by the local
-pipeline (`mlVAR`, `gimme`, `graphicalVAR`, `qgraph`, `lme4`, `lmerTest`, `tseries`) and
-Tectonic to the image.
+Raw and processed participant-level data are intentionally excluded from Git. Keep the
+private data on the local machine under `src/data/raw/`. The full statistical pipeline also
+requires the R modelling packages used by the local workflow (`mlVAR`, `gimme`,
+`graphicalVAR`, `lme4`, `lmerTest`, `tseries`).
 
 ---
 
