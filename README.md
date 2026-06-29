@@ -96,17 +96,36 @@ supplementary figures are stored under [`paper/assets/figures`](paper/assets/fig
 
 ![Variance decomposition](paper/assets/figures/main/MAIN_01_variance_decomposition.png)
 
+Objective activity contains enough within-day variation to justify temporal within-person
+modelling, whereas symptoms are more dominated by between-person differences. This figure
+motivates why the paper treats momentary dynamics as the primary analytic level.
+
 **MAIN_02: Group-level momentary networks**
 
 ![mlVAR networks](paper/assets/figures/main/MAIN_02_mlvar_networks.png)
+
+The temporal network shows persistence in all four nodes, plus the two clearest
+cross-lagged signals: activity to lower subsequent fatigue and stress to higher subsequent
+pain. The contemporaneous and between-person panels show that symptom clustering is much
+stronger at the same prompt and trait level than as cross-lagged prediction.
 
 **MAIN_03: Group temporal effects and individual heterogeneity**
 
 ![Temporal effects and heterogeneity](paper/assets/figures/main/MAIN_03_temporal_effects_heterogeneity.png)
 
+The average symptom-to-activity effects are close to zero, but the per-person distributions
+are wide and include opposite directions. This is the key evidence that group averages alone
+hide clinically relevant heterogeneity, while fully separate individual estimates remain too
+imprecise at this series length.
+
 **MAIN_04: POAM-P subgroups and pain-to-activity coupling**
 
 ![POAM-P subgroup link](paper/assets/figures/main/MAIN_04_poamp_subgroups_link.png)
+
+The pain-to-activity coupling aligns with baseline activity pattern: avoidance is
+associated with more negative coupling, overdoing is near zero, and pacing is positive on
+average. This supports the RQ2 claim that activity-pattern information helps interpret
+heterogeneous momentary dynamics.
 
 ---
 
