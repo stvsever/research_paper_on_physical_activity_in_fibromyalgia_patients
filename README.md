@@ -4,9 +4,14 @@
 
 ### Determinants of physical activity in fibromyalgia: an EMA network analysis
 
-Annick De Paepe &middot; Stijn Van Severen &middot; Delfien Van Dyck &middot; Geert Crombez
+Annick De Paepe<sup>1</sup> &middot;
+Stijn Van Severen<sup>1,*</sup> &middot;
+Delfien Van Dyck<sup>2</sup> &middot;
+Geert Crombez<sup>1</sup>
 
-**Ghent Health Psychology Lab, Ghent University**
+<sup>1</sup> Ghent Health Psychology Lab, Ghent University<br>
+<sup>2</sup> Department of Movement and Sport Sciences, Ghent University, Ghent, Belgium<br>
+<sup>*</sup> Corresponding author: <a href="mailto:stijn.vanseveren@ugent.be">stijn.vanseveren@ugent.be</a>
 
 [![Method](https://img.shields.io/badge/Method-multilevel_VAR_+_S--GIMME-8A2BE2)](src/utils/pipeline/separate/05_mlvar)
 [![Engine](https://img.shields.io/badge/Engine-R_models_via_Python-2496ED)](src/utils/pipeline/full/run_all.py)
